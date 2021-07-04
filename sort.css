@@ -1,0 +1,24 @@
+*{
+    padding: 0px;
+    margin: 0px;
+}
+
+.array{
+    height: 500px;
+    background-color: aqua;
+    padding: 0px;
+    display: flex;
+    width: auto;
+    gap : 5px;
+    justify-content: center;
+
+}
+.array .narray{
+    background-color: azure;
+    min-width: 4px;
+    padding: 0px;
+    transition: all 0.1s ease 0.0011s;
+}
+.narray {
+    overflow-x: 13px;
+}
